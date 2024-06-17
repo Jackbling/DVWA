@@ -19,7 +19,7 @@ variables:
   imagePullSecret: 'waftraining93ab-auth'
 
   # Agent VM image name
-  vmImageName: 'windows-latest'
+  vmImageName: 'jack-pc'
 
 
 stages:
