@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: jackblingdvwa 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: jackblingdvwa
+  template:
+    metadata:
+      labels:
+        app: jackblingdvwa 
+    spec:
+      containers:
+        - name: jackblingdvwa 
+          image: waftraining.azurecr.io/jackblingdvwa
+          ports:
+          - containerPort: 80
