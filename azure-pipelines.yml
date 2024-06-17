@@ -19,7 +19,7 @@ variables:
   imagePullSecret: 'waftraining93ab-auth'
 
   # Agent VM image name
-  vmImageName: 'ubuntu-latest'
+  vmImageName: 'ubuntu-22.04'
 
 
 stages:
